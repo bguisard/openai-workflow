@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.alfredapp.vitor.openai</string>
+	<key>category</key>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>002874FF-3AE4-4E8F-A4F8-65844E5D6CFB</key>
@@ -155,7 +157,7 @@
 				<key>destinationuid</key>
 				<string>02627B69-31FA-4441-A186-B2095B6F40B9</string>
 				<key>modifiers</key>
-				<integer>131072</integer>
+				<integer>1835008</integer>
 				<key>modifiersubtext</key>
 				<string>Stop generating answer</string>
 				<key>vitoclose</key>
@@ -175,7 +177,7 @@
 				<key>destinationuid</key>
 				<string>A4782A1E-2A93-401B-9CB7-1D8770AD510E</string>
 				<key>modifiers</key>
-				<integer>524288</integer>
+				<integer>655360</integer>
 				<key>modifiersubtext</key>
 				<string>Copy last answer</string>
 				<key>vitoclose</key>
@@ -185,7 +187,7 @@
 				<key>destinationuid</key>
 				<string>361EA732-1619-44FE-991A-3F0120D41C2F</string>
 				<key>modifiers</key>
-				<integer>262144</integer>
+				<integer>1179648</integer>
 				<key>modifiersubtext</key>
 				<string>Copy full chat</string>
 				<key>vitoclose</key>
@@ -1159,7 +1161,7 @@ function run() {
 				<key>fontsizing</key>
 				<integer>0</integer>
 				<key>footertext</key>
-				<string>↩ Ask question · ⌘↩ New chat · ⌥↩ Copy last · ⌃↩ Copy all · ⇧↩ Interrupt</string>
+				<string>↩ Ask question · ⌘↩ New chat · ⌘⇧↩ Copy last · ⌃⇧↩ Copy all · ⌥⇧⌃↩ Interrupt</string>
 				<key>inputfile</key>
 				<string>chatgpt</string>
 				<key>inputtype</key>
